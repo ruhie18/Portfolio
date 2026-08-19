@@ -340,7 +340,14 @@ footer {
   border: 1px solid #deded8;
   background: white;
 }
-
+.tableau-title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
 .tableau-embed iframe {
   display: block;
   width: 100%;
