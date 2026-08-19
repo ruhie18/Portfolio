@@ -325,6 +325,14 @@ footer {
     padding: 16px 20px;
   }
 
+  .learolab-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .learolab-gallery img {
+    height: auto;
+  }
+
   .nav nav {
     gap: 16px;
   }
