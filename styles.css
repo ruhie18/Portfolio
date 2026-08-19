@@ -319,6 +319,20 @@ footer {
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
+.hr-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.hr-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid #deded8;
+}
 @media (max-width: 760px) {
   .nav {
     padding: 16px 20px;
