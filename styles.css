@@ -321,7 +321,7 @@ footer {
 }
 .hr-gallery {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   margin-top: 24px;
 }
@@ -338,6 +338,9 @@ footer {
     padding: 16px 20px;
   }
 
+  .hr-gallery {
+    grid-template-columns: 1fr;
+  }
   .learolab-gallery {
     grid-template-columns: 1fr;
   }
